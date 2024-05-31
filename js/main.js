@@ -1,18 +1,18 @@
-/* ========== SHOW MENU ========== */
+/*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
-    navToggle = document.getElementById('nav-toggle'),
-    navClose = document.getElementById('nav-close')
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
 
-/* MENU SHOW */
+/* Menu show */
 if(navToggle){
-    navToggle.addEventListener('click', () =>{
+   navToggle.addEventListener('click', () =>{
       navMenu.classList.add('show-menu')
-  })  
+   })
 }
 
-/* MENU HIDDEN */
+/* Menu hidden */
 if(navClose){
-    navClose.addEventListener('click', () =>{
+   navClose.addEventListener('click', () =>{
       navMenu.classList.remove('show-menu')
-  })  
+   })
 }
