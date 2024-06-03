@@ -53,6 +53,8 @@
   /* === FONT WEIGHT === */
   --font-regular: 400;
   --font-medium: 500;
+  --font-bold: 600;
+  --font-bolder: 700;
 
   /* === Z-INDEX === */
   --z-tooltip: 10;
@@ -133,10 +135,6 @@
     transition: left .4s;
   }
 
-  .nav__link {
-    color: var(--white-color);
-  }
-
   .nav__item {
     transform: translateX(-150px);
     visibility: hidden;
@@ -174,7 +172,7 @@
   position: relative;
   color: var(--darker-blue);
   font-size: var(--h1-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-bolder);
   display: inline-flex;
   align-items: center;
   transition: opacity .4s;
@@ -200,7 +198,7 @@
   bottom: -6px;
   width: 0;
   height: 2px;
-  background-color: var(--white-color);
+  background-color: var(--darker-blue);
   transition: width .4s ease-out;
 }
 
